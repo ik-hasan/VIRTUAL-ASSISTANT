@@ -137,7 +137,7 @@ ${command}
   }
 };
 
-module.exports =  geminiResponse ;
+module.exports =  {geminiResponse} ;
 
 //SUMMARY
 //Gemini decision batata hai
