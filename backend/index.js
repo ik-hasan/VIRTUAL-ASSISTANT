@@ -12,7 +12,6 @@ const port = process.env.port || 8000
 
 //cors error resolver,is port/frontend se aane wala data hi lega
 app.use(cors({
-  // origin:"http://localhost:5173",
   origin:"https://virtualassistant-cuzv.onrender.com",
   credentials:true
 }))
