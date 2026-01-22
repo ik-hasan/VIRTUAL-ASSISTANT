@@ -7,7 +7,7 @@ const cors = require("cors");
 const authRouter = require('./routes/auth.routes')
 const userRouter = require('./routes/user.routes');
 const { geminiResponse } = require('./gemini');
-const port = process.env.port || 5000
+const port = process.env.port || 8000
 
 
 //cors error resolver,is port/frontend se aane wala data hi lega
