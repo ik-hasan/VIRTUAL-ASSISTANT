@@ -61,7 +61,7 @@ const updateAssistant = async(req,res)=>{
 
 //this controller is new for me
 const moment = require('moment');
-const  geminiResponse = require('../gemini')
+const  {geminiResponse} = require('../gemini')
 const askToAssistant = async(req,res)=>{
   try {
 
